@@ -394,76 +394,76 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 }
 
 /* styles-switcher */
-#styles-switcher {
-  background: #fff;
-  width: 202px;
-  position: fixed;
-  top: 35%;
-  z-index: 99;
-  padding: 18px;
-  left: -202px;
-  ul {
-    padding: 0;
-    li {
-      list-style-type: none;
-      width: 25px;
-      height: 25px;
-      margin: 4px 2px;
-      border-radius: 50%;
-      display: inline-block;
-      cursor: pointer;
-      transition: all .2s ease-in-out;
-      &.blue {
-        background: #007bff;
-      }
-      &.brown {
-        background: #795548;
-      }
-      &.purple {
-        background: #6f42c1;
-      }
-      &.indigo {
-        background: #6610f2;
-      }
-      &.red {
-        background: #dc3545;
-      }
-      &.orange {
-        background: #fd7e14;
-      }
-      &.yellow {
-        background: #ffc107;
-      }
-      &.green {
-        background: #28a745;
-      }
-      &.pink {
-        background: #e83e8c;
-      }
-      &.cyan {
-        background: #17a2b8;
-      }
-      &.active {
-        transform: scale(0.7);
-		cursor:default;
-      }
-    }
-  }
-  .switcher-toggle {
-    position: absolute;
-    background: #555;
-    color: #fff;
-    font-size: 1.25rem;
-    border-radius: 0px 4px 4px 0;
-    right: -40px;
-    top: 0;
-    width: 40px;
-    height: 40px;
-    padding: 0px;
-	border:0px;
-  }
-  #reset-color{background: #20c997;}
-}
+//#styles-switcher {
+//  background: #fff;
+//  width: 202px;
+//  position: fixed;
+//  top: 35%;
+//  z-index: 99;
+//  padding: 18px;
+//  left: -202px;
+//  ul {
+//    padding: 0;
+//    li {
+//      list-style-type: none;
+//      width: 25px;
+//      height: 25px;
+//      margin: 4px 2px;
+//      border-radius: 50%;
+//      display: inline-block;
+//      cursor: pointer;
+//      transition: all .2s ease-in-out;
+//      &.blue {
+//        background: #007bff;
+//      }
+//      &.brown {
+//        background: #795548;
+//      }
+//      &.purple {
+//        background: #6f42c1;
+//      }
+//      &.indigo {
+//        background: #6610f2;
+//      }
+//      &.red {
+//        background: #dc3545;
+//      }
+//      &.orange {
+//        background: #fd7e14;
+//      }
+//      &.yellow {
+//        background: #ffc107;
+//      }
+//      &.green {
+//        background: #28a745;
+//      }
+//      &.pink {
+//        background: #e83e8c;
+//      }
+//      &.cyan {
+//        background: #17a2b8;
+//      }
+//      &.active {
+//        transform: scale(0.7);
+//		cursor:default;
+//      }
+//    }
+//  }
+//  .switcher-toggle {
+//    position: absolute;
+//    background: #555;
+//    color: #fff;
+//    font-size: 1.25rem;
+//    border-radius: 0px 4px 4px 0;
+//    right: -40px;
+//    top: 0;
+//    width: 40px;
+//    height: 40px;
+//    padding: 0px;
+//	border:0px;
+//  }
+//  #reset-color{background: #20c997;}
+//}
 
 input:-internal-autofill-selected {
     background-color: transparent;
