@@ -5,15 +5,15 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
     <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
-        <div className="position-relative d-flex text-center mb-5">
-          <h2
-            className={
-              "text-24  text-uppercase fw-600 w-100 mb-0 " +
-              (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
-            }
-          >
-            About Me
-          </h2>
+        <div className="position-relative d-flex text-center section-title">
+          {/*<h2*/}
+          {/*  className={*/}
+          {/*    "text-24  text-uppercase fw-600 w-100 mb-0 " +*/}
+          {/*    (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")*/}
+          {/*  }*/}
+          {/*>*/}
+          {/*  About Me*/}
+          {/*</h2>*/}
           <p
             className={
               "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
@@ -63,7 +63,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="mailto:contact@codearise.com">chat@simone.com</a>
                 </li>
                 <li>
                   <span className="fw-600 me-2">Age:</span>28
@@ -76,7 +76,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               <a
                 href={resumeFile}
                 download
-                className="btn btn-primary rounded-pill"
+                className="btn btn-primary btn-radius"
               >
                 Download CV
               </a>

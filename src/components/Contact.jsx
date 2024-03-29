@@ -59,15 +59,15 @@ const Contact = ({ classicHeader, darkTheme }) => {
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
-        <div className="position-relative d-flex text-center mb-5">
-          <h2
-            className={
-              "text-24  text-uppercase fw-600 w-100 mb-0 " +
-              (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
-            }
-          >
-            Contact
-          </h2>
+        <div className="position-relative d-flex text-center section-title">
+          {/*<h2*/}
+          {/*  className={*/}
+          {/*    "text-24  text-uppercase fw-600 w-100 mb-0 " +*/}
+          {/*    (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")*/}
+          {/*  }*/}
+          {/*>*/}
+          {/*  Contact*/}
+          {/*</h2>*/}
           <p
             className={
               "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
@@ -75,7 +75,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
             }
           >
             {" "}
-            Get in Touch
+            Contact me
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -85,7 +85,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
           <div className="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start">
             <h2
               className={
-                "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
+                "mb-3 text-5" + (darkTheme ? "text-white" : "")
               }
             >
               Address
@@ -113,14 +113,14 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
               </span>
-              chat@simone.com
+              contact@codearise.com
             </p>
             <h2
               className={
-                "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
+                "mb-3 text-5" + (darkTheme ? "text-white" : "")
               }
             >
-              Follow Me
+              Follow me
             </h2>
             <ul
               className={
@@ -189,11 +189,11 @@ const Contact = ({ classicHeader, darkTheme }) => {
           <div className="col-md-8 col-xl-9 order-0 order-md-1">
             <h2
               className={
-                "mb-3 text-5 text-uppercase text-center text-md-start " +
+                "mb-3 text-5 text-center text-md-start " +
                 (darkTheme ? "text-white" : "")
               }
             >
-              Send us a note
+              Tell or ask me anything
             </h2>
             <form
               className={darkTheme ? "form-dark" : ""}
@@ -228,7 +228,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Tell us more about your needs........"
+                    placeholder="Message"
                     defaultValue={""}
                   />
                 </div>
@@ -236,7 +236,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <p className="text-center mt-4 mb-0">
                 <button
                   id="submit-btn"
-                  className="btn btn-primary rounded-pill d-inline-flex"
+                  className="btn btn-primary btn-radius d-inline-flex"
                   type="submit"
                 >
                   {sendingMail ? (
@@ -246,10 +246,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
                         aria-hidden="true"
                         class="spinner-border spinner-border-sm align-self-center me-2"
                       ></span>
-                      Sending.....
+                      Sending message...
                     </>
                   ) : (
-                    <>Send Message</>
+                    <>Get in touch</>
                   )}
                 </button>
               </p>

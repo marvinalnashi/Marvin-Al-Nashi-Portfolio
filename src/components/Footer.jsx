@@ -12,14 +12,10 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
             <p className="mb-3 mb-lg-0">
               Copyright © 2023{" "}
               <a
-                href="#home"
+                href="https://codearise.com"
                 className="fw-500"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNavClick("home");
-                }}
               >
-                Simone
+                CodeArise
               </a>
               . All Rights Reserved.
             </p>

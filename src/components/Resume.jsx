@@ -78,15 +78,15 @@ const Resume = ({ classicHeader, darkTheme }) => {
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
-        <div className="position-relative d-flex text-center mb-5">
-          <h2
-            className={
-              "text-24  text-uppercase fw-600 w-100 mb-0 " +
-              (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
-            }
-          >
-            Summary
-          </h2>
+        <div className="position-relative d-flex text-center section-title">
+          {/*<h2*/}
+          {/*  className={*/}
+          {/*    "text-24  text-uppercase fw-600 w-100 mb-0 " +*/}
+          {/*    (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")*/}
+          {/*  }*/}
+          {/*>*/}
+          {/*  Summary*/}
+          {/*</h2>*/}
           <p
             className={
               "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
@@ -114,7 +114,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 <div
                   key={index}
                   className={
-                    "bg-white  rounded p-4 mb-4 " +
+                    "bg-white btn-radius p-4 mb-4 " +
                     (darkTheme ? "bg-dark" : "bg-white border")
                   }
                 >
@@ -147,7 +147,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 <div
                   key={index}
                   className={
-                    "bg-white  rounded p-4 mb-4 " +
+                    "bg-white btn-radius p-4 mb-4 " +
                     (darkTheme ? "bg-dark" : "bg-white border")
                   }
                 >
@@ -207,7 +207,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
         </div>
         <div className="text-center mt-5">
           <a
-            className="btn btn-outline-secondary rounded-pill shadow-none"
+            className="btn btn-outline-secondary btn-radius shadow-none"
             href={resumeFile}
             download
           >

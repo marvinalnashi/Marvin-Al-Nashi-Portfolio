@@ -33,7 +33,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         twitter: "http://www.twitter.com/",
         google: "http://www.google.com/",
         instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:contact@codearise.com",
       },
       thumbImage: "images/projects/project-1.jpg",
       sliderImages: [
@@ -59,7 +59,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         twitter: "http://www.twitter.com/",
         google: "http://www.google.com/",
         instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:contact@codearise.com",
       },
       thumbImage: "images/projects/project-2.jpg",
       sliderImages: [
@@ -85,7 +85,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         twitter: "http://www.twitter.com/",
         google: "http://www.google.com/",
         instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:contact@codearise.com",
       },
       thumbImage: "images/projects/project-3.jpg",
       sliderImages: [
@@ -111,7 +111,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         twitter: "http://www.twitter.com/",
         google: "http://www.google.com/",
         instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:contact@codearise.com",
       },
       thumbImage: "images/projects/project-4.jpg",
       sliderImages: [
@@ -137,7 +137,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         twitter: "http://www.twitter.com/",
         google: "http://www.google.com/",
         instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:contact@codearise.com",
       },
       thumbImage: "images/projects/project-5.jpg",
       sliderImages: [
@@ -163,7 +163,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         twitter: "http://www.twitter.com/",
         google: "http://www.google.com/",
         instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:contact@codearise.com",
       },
       thumbImage: "images/projects/project-6.jpg",
       sliderImages: [
@@ -189,7 +189,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         twitter: "http://www.twitter.com/",
         google: "http://www.google.com/",
         instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:contact@codearise.com",
       },
       thumbImage: "images/projects/project-7.jpg",
       sliderImages: [
@@ -232,15 +232,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       >
         <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
           {/* Heading */}
-          <div className="position-relative d-flex text-center mb-5">
-            <h2
-              className={
-                "text-24  text-uppercase fw-600 w-100 mb-0 " +
-                (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
-              }
-            >
-              Portfolio
-            </h2>
+          <div className="position-relative d-flex text-center section-title">
+            {/*<h2*/}
+            {/*  className={*/}
+            {/*    "text-24  text-uppercase fw-600 w-100 mb-0 " +*/}
+            {/*    (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")*/}
+            {/*  }*/}
+            {/*>*/}
+            {/*  Portfolio*/}
+            {/*</h2>*/}
             <p
               className={
                 "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
@@ -294,8 +294,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                     }
                     key={index}
                   >
-                    <div className="portfolio-box rounded">
-                      <div className="portfolio-img rounded">
+                    <div className="portfolio-box btn-radius">
+                      <div className="portfolio-img btn-radius">
                         <img
                           onLoad={() => {
                             setimagesLoaded(imagesLoaded + 1);

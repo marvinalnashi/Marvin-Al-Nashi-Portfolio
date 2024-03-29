@@ -42,15 +42,15 @@ const Services = ({ classicHeader, darkTheme }) => {
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
-        <div className="position-relative d-flex text-center mb-5">
-          <h2
-            className={
-              "text-24  text-uppercase fw-600 w-100 mb-0 " +
-              (darkTheme ? "text-white-50  opacity-1" : "text-light  opacity-4")
-            }
-          >
-            Services
-          </h2>
+        <div className="position-relative d-flex text-center section-title">
+          {/*<h2*/}
+          {/*  className={*/}
+          {/*    "text-24  text-uppercase fw-600 w-100 mb-0 " +*/}
+          {/*    (darkTheme ? "text-white-50  opacity-1" : "text-light  opacity-4")*/}
+          {/*  }*/}
+          {/*>*/}
+          {/*  Services*/}
+          {/*</h2>*/}
           <p
             className={
               "text-9  fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
@@ -72,7 +72,7 @@ const Services = ({ classicHeader, darkTheme }) => {
                     <div className="featured-box style-3 mb-5">
                       <div
                         className={
-                          "featured-box-icon text-primary  shadow-sm rounded " +
+                          "featured-box-icon text-primary  shadow-sm btn-radius " +
                           (darkTheme ? "bg-dark-1" : "bg-white")
                         }
                       >
