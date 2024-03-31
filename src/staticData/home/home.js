@@ -189,18 +189,28 @@ export const userDetailsSidebar = {
   basicInfo: [
     {
       id: 1,
-      field: "Residence",
-      value: "Canada",
+      field: "Location",
+      value: "Alblasserdam, NL",
     },
     {
       id: 2,
-      field: "City",
-      value: "Toronto",
+      field: "Organisation",
+      value: "CodeArise",
     },
     {
       id: 3,
-      field: "Age",
-      value: "26",
+      field: "Occupational status",
+      value: "Student/Founder",
+    },
+    {
+      id: 4,
+      field: "Work location preference",
+      value: "Hybrid",
+    },
+    {
+      id: 5,
+      field: "Main website",
+      value: "codearise.com",
     },
   ],
   skillsInfo: [
@@ -295,10 +305,10 @@ export const skills = {
   skillsHeading: {
     icon: <FaGraduationCap className="text-theme" />,
     title: "SKILLS",
-    heading: "My",
-    coloredHeading: "Advantages",
+    heading: "Current",
+    coloredHeading: "Projects",
     description:
-      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+      "I create operating systems, applications, desktop environments, kernels, websites, games, designs, and more! I also maintain a blog and write about the latest technologies and the products I release for the world to experience and enjoy.",
   },
   skillsData: [
     {

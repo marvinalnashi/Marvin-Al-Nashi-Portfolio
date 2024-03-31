@@ -163,7 +163,7 @@ const Skills = () => {
             <BsArrowLeft size={18} className="group-hover:text-white" />
           </button>
           <div className="text-sm font-light text-center text-black dark:text-white counter w-7">
-            {activeSlide + 1}/{skills?.skillsData?.length}
+            {activeSlide + 1}
           </div>
           <button
             className="group transition border rounded-full button-next w-11 h-11 group border-platinum dark:border-greyBlack flex-center hover:bg-theme hover:border-theme"

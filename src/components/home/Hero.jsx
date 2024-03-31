@@ -62,7 +62,7 @@ const Hero = () => {
           <div className="items-center grid-cols-12 overflow-hidden md:grid">
             <div className="hidden col-span-2 md:inline-block">
               <h6 className="font-medium text-black dark:text-white/80 text-sm md:max-w-[8rem] border-l border-theme pl-4">
-                Trusted companies
+                My stack
               </h6>
             </div>
             <div className="col-span-10 logo-slider">
