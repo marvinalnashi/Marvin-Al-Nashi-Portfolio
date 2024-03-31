@@ -80,7 +80,7 @@ const ContactMe = () => {
               <div className=" form-group">
                 <button
                   type="submit"
-                  className="inline-flex items-center gap-2 text-[15px] font-medium border border-theme bg-theme text-white py-4.5 px-9 rounded-4xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover"
+                  className="inline-flex items-center gap-2 text-[15px] font-medium border border-theme bg-theme text-white py-4.5 px-9 rounded-2xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover"
                   aria-label="Send Message"
                 >
                   Send Message

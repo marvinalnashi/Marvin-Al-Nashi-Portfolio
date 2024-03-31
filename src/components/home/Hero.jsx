@@ -34,7 +34,7 @@ const Hero = () => {
             </ul>
             <ul className="mt-7 buttons">
               <li data-scroll-nav="8">
-                <Button text="HIRE ME" prefix={<IoMdPaperPlane size={18} />} />
+                <Button text="Learn more" />
               </li>
             </ul>
           </div>

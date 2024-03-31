@@ -8,7 +8,8 @@ import VisibilitySensor from "react-visibility-sensor";
 import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 import CountUp from "react-countup";
 import { useEffect, useState } from "react";
-import { IoCloudDownloadOutline } from "react-icons/io5";
+import { LuDownload } from "react-icons/lu";
+import {siteSettings} from "@/src/staticData/siteSettings";
 
 const SidebarProfile = () => {
   const [change, setChange] = useState(false);
@@ -146,15 +147,25 @@ const SidebarProfile = () => {
           {/*  ))}*/}
           {/*</div>*/}
           <div className="mt-6">
+            {siteSettings?.socialMedias?.map((item) => (
+                <Link
+                    key={item?.id}
+                    href={item?.url}
+                    className="flex transition duration-200 hover:text-theme"
+                    title={item?.tooltip}
+                >
+                  {item?.Icon}
+                </Link>
+            ))}
             <Link
               href="blank.pdf"
               download
               target="_blank"
-              className="text-center text-sm border border-theme bg-theme flex items-center justify-center gap-2 text-white rounded-4xl py-3.5 transition duration-300 text-[15px] font-semibold hover:bg-themeHover hover:border-themeHover"
+              className="text-center text-sm border border-theme bg-theme flex items-center justify-center gap-2 text-white rounded-2xl py-3.5 transition duration-300 text-[15px] font-semibold hover:bg-themeHover hover:border-themeHover"
             >
-              DOWNLOAD CV
+              Download my CV
               <span className="animate-bounce">
-                <IoCloudDownloadOutline size={18} />
+                <LuDownload size={18} />
               </span>
             </Link>
           </div>

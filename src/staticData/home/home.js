@@ -68,7 +68,7 @@ export const introduce = {
   },
   desc: (
     <p>
-      I'm a software engineer who loves working with all kinds of technologies. With my projects, I strive to release unique software for various target audiences worldwide.
+      As a software engineer passionate about exploring and working with all kinds of technologies, I'm driven by the challenge of using them to create innovative products and solutions. With my projects, I strive to deliver unique and impactful software for diverse audiences worldwide.
     </p>
   ),
   jobs: [
