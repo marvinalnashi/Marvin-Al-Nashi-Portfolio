@@ -80,7 +80,6 @@ const Skills = () => {
                 {skills?.skillsData?.map((service, i) => (
                   <SwiperSlide key={i}>
                     <div className="space-y-5 text-center swiper-slide">
-                      <img src={service?.image} alt={service?.name} />
                       <div className="!w-32 !h-32 md:!w-40 md:!h-40 mx-auto">
                         <CountUp
                           start={0}
@@ -116,7 +115,7 @@ const Skills = () => {
                                         transformOrigin: "center center",
                                       },
                                       trail: {
-                                        stroke: "#B7B7B7",
+                                        stroke: "#FFFFFF",
                                         strokeLinecap: "butt",
                                         transform: "rotate(0.25turn)",
                                         transformOrigin: "center center",
@@ -129,12 +128,13 @@ const Skills = () => {
                                     value={percentage}
                                   >
                                     <div className="text-center">
-                                      <div
-                                        className="absolute inset-0 text-2xl font-semibold text-black dark:text-white label flex-center"
-                                        ref={countUpRef}
-                                      >
-                                        <span></span>
-                                      </div>
+                                      {/*<div*/}
+                                      {/*  className="absolute inset-0 text-2xl font-semibold text-black dark:text-white label flex-center"*/}
+                                      {/*  ref={countUpRef}*/}
+                                      {/*>*/}
+                                      {/*  <span></span>*/}
+                                      {/*</div>*/}
+                                      <img src={service?.image} alt={service?.name}/>
                                     </div>
                                   </CircularProgressbarWithChildren>
                                 );

@@ -60,32 +60,28 @@ import { IoHomeOutline } from "react-icons/io5";
 export const introduce = {
   iconBox: {
     Icon: <IoHomeOutline className="text-theme" size={14} />,
-    title: "INTRODUCE",
+    title: "WHO I AM",
   },
   heading: {
-    heading1: "I Craft The",
-    heading2: "Digital Landscape",
+    heading1: "I Aim To",
+    heading2: "Make A Change",
   },
   desc: (
     <p>
-      I am a{" "}
-      <span className="font-medium text-black dark:text-white/90">
-        Frontend Developer
-      </span>{" "}
-      at heart and, i create features that are best suited for the job at hand.
+      I'm a software engineer who loves working with all kinds of technologies. With my projects, I strive to release unique software for various target audiences worldwide.
     </p>
   ),
   jobs: [
-    {
-      id: 1,
-      title: "Available for work",
-      icon: <BiCheckDouble size={25} className="text-theme mr-1" />,
-    },
-    {
-      id: 2,
-      title: "Full Time Job",
-      icon: <BiCheckDouble size={25} className="text-theme mr-1" />,
-    },
+    // {
+    //   id: 1,
+    //   title: "Available for work",
+    //   icon: <BiCheckDouble size={25} className="text-theme mr-1" />,
+    // },
+    // {
+    //   id: 2,
+    //   title: "Full Time Job",
+    //   icon: <BiCheckDouble size={25} className="text-theme mr-1" />,
+    // },
   ],
 };
 
