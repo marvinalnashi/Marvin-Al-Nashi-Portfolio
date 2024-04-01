@@ -1,7 +1,7 @@
 import Button from "../ui/Button";
 import heroImg from "@/public/assets/img/hero-img-1.png";
 import heroImgDark from "@/public/assets/img/hero-img-2.png";
-import { introduce, partners } from "@/src/staticData/home/home";
+import { introduce, languages, frameworks } from "@/src/staticData/home/home";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import { IoMdPaperPlane } from "react-icons/io";
@@ -59,18 +59,37 @@ const Hero = () => {
           </div>
         </div>
         <div className="mb-2 mt-14 xl:mb-0 xl:mt-20">
+          <h1 className="font-medium text-black dark:text-white/80 text-xl pb-1 md:max-w-[8rem]">My stack</h1>
           <div className="items-center grid-cols-12 overflow-hidden md:grid">
             <div className="hidden col-span-2 md:inline-block">
               <h6 className="font-medium text-black dark:text-white/80 text-sm md:max-w-[8rem] border-l border-theme pl-4">
-                My stack
+                Languages
               </h6>
             </div>
             <div className="col-span-10 logo-slider">
               <div className="swiper">
                 <div className="swiper-wrapper">
                   <Marquee>
-                    {partners?.map((partner, i) => (
-                      <TrustedCompany key={i} {...partner} />
+                    {languages?.map((partner, i) => (
+                        <TrustedCompany key={i} {...partner} />
+                    ))}
+                  </Marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="items-center grid-cols-12 overflow-hidden md:grid">
+            <div className="hidden col-span-2 md:inline-block">
+              <h6 className="font-medium text-black dark:text-white/80 text-sm md:max-w-[8rem] border-l border-theme pl-4">
+                Frameworks
+              </h6>
+            </div>
+            <div className="col-span-10 logo-slider">
+              <div className="swiper">
+                <div className="swiper-wrapper">
+                  <Marquee>
+                    {frameworks?.map((partner, i) => (
+                        <TrustedCompany key={i} {...partner} />
                     ))}
                   </Marquee>
                 </div>

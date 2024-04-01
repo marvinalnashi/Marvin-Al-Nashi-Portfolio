@@ -22,8 +22,8 @@ const AboutMe = () => {
           ABOUT ME
         </div>
         <div className="mt-7 md:mt-10 section-title">
-          <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
-            About <span className="font-semibold text-theme">Me</span>
+          <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-semibold text-black dark:text-white leading-1.27">
+            About <span className="text-theme">Me</span>
           </h2>
           <p className="max-w-2xl mt-4 md:mt-6 subtitle">
             Hi, my name is{" "}

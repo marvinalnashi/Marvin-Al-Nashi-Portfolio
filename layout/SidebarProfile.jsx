@@ -146,7 +146,7 @@ const SidebarProfile = () => {
           {/*    </div>*/}
           {/*  ))}*/}
           {/*</div>*/}
-          <div className="mt-6">
+          <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
             {siteSettings?.socialMedias?.map((item) => (
                 <Link
                     key={item?.id}
@@ -157,9 +157,11 @@ const SidebarProfile = () => {
                   {item?.Icon}
                 </Link>
             ))}
+          </div>
+          <div className="mt-6">
             <Link
-              href="blank.pdf"
-              download
+                href="blank.pdf"
+                download
               target="_blank"
               className="text-center text-sm border border-theme bg-theme flex items-center justify-center gap-2 text-white rounded-2xl py-3.5 transition duration-300 text-[15px] font-semibold hover:bg-themeHover hover:border-themeHover"
             >

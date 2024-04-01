@@ -32,7 +32,7 @@ const SingleBlog = ({ blog }) => {
             </p>
           </div>
           <div className="read-details">
-            <p className="inline-flex items-center gap-2 border border-theme text-theme text-sm py-3.5 px-6 rounded-3xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover dark:font-medium hover:text-white">
+            <p className="inline-flex items-center gap-2 border border-theme text-theme text-sm py-3.5 px-6 rounded-2xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover dark:font-medium hover:text-white">
               Read More
             </p>
           </div>

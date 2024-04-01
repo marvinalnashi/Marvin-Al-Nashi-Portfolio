@@ -8,7 +8,7 @@ const TrustedCompany = ({ imgUrl, altText }) => {
         <Image
           src={imgUrl}
           width="0"
-          height="0"
+          height="25"
           alt={altText}
           priority
           className="w-full h-auto"

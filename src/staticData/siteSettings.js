@@ -9,9 +9,8 @@ import {
   FaFacebook,
   FaLinkedin,
   FaTwitter,
-  FaInstagram,
+  FaInstagram, FaGithub, FaGooglePlay, FaAppStore,
 } from "react-icons/fa";
-import { BsListTask } from "react-icons/bs";
 import { LiaBlogSolid } from "react-icons/lia";
 import { BiCommentDetail } from "react-icons/bi";
 import { FaRegUser } from "react-icons/fa6";
@@ -20,9 +19,9 @@ import { MdFormatListBulleted } from "react-icons/md";
 export const siteSettings = {
   logo: {
     image: logo?.src,
-    alt: "Minfo",
+    alt: "CodeArise",
     url: "/",
-    text: "Minfo",
+    text: "CodeArise",
   },
   headersMenu: [
     {
@@ -99,6 +98,50 @@ export const siteSettings = {
     },
   ],
   socialMedias: [
+    {
+      id: 1,
+      name: "LinkedIn",
+      tooltip: "Contact me on LinkedIn",
+      Icon: <FaLinkedin />,
+      url: "#",
+    },
+    {
+      id: 2,
+      name: "Facebook",
+      tooltip: "Contact me on Facebook",
+      Icon: <FaFacebook />,
+      url: "#",
+    },
+    {
+      id: 3,
+      name: "X",
+      tooltip: "Contact me on X",
+      Icon: <FaTwitter />,
+      url: "#",
+    },
+    {
+      id: 4,
+      name: "Apple App Store",
+      tooltip: "Check me out on Apple App Store",
+      Icon: <FaAppStore />,
+      url: "#",
+    },
+    {
+      id: 5,
+      name: "Google Play",
+      tooltip: "Check me out on Google Play",
+      Icon: <FaGooglePlay />,
+      url: "#",
+    },
+    {
+      id: 6,
+      name: "GitHub",
+      tooltip: "Check me out on GitHub",
+      Icon: <FaGithub />,
+      url: "#",
+    },
+  ],
+  socialMediaShare: [
     {
       id: 1,
       name: "Facebook",

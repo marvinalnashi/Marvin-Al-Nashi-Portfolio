@@ -46,7 +46,7 @@ const Portfolio = () => {
                 <li>
                   <Link
                     href="#"
-                    className="inline-flex items-center gap-2 px-5 py-3 text-sm font-light leading-none text-white transition-colors bg-metalBlack rounded-3xl hover:text-theme"
+                    className="inline-flex items-center gap-2 px-5 py-3 text-sm font-light leading-none text-white transition-colors bg-metalBlack rounded-2xl hover:text-theme"
                   >
                     {portfolio?.type}
                   </Link>

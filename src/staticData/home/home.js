@@ -28,6 +28,21 @@ import partner2Image from "@/public/assets/img/partners/logo2.svg";
 import partner3Image from "@/public/assets/img/partners/logo3.svg";
 import partner4Image from "@/public/assets/img/partners/logo4.svg";
 
+import languageLogo1 from "@/public/assets/img/stack/vue.png"
+import languageLogo2 from "@/public/assets/img/stack/vue.png"
+import languageLogo3 from "@/public/assets/img/stack/vue.png"
+import languageLogo4 from "@/public/assets/img/stack/vue.png"
+import languageLogo5 from "@/public/assets/img/stack/vue.png"
+import languageLogo6 from "@/public/assets/img/stack/vue.png"
+
+
+import frameworkLogo1 from "@/public/assets/img/stack/vue.png"
+import frameworkLogo2 from "@/public/assets/img/stack/angular.png"
+import frameworkLogo3 from "@/public/assets/img/stack/react.png"
+import frameworkLogo4 from "@/public/assets/img/stack/vue.png"
+import frameworkLogo5 from "@/public/assets/img/stack/vue.png"
+import frameworkLogo6 from "@/public/assets/img/stack/vue.png"
+
 import userImage from "@/public/assets/img/user-sidebar-thumb.png";
 import userImageLight from "@/public/assets/img/user-sidebar-thumb-light.png";
 
@@ -85,9 +100,9 @@ export const introduce = {
   ],
 };
 
-export const partners = [
+export const languages = [
   {
-    imgUrl: partner1Image,
+    imgUrl: languageLogo1,
     altText: "Partner Name 1",
     link: "#",
   },
@@ -98,6 +113,54 @@ export const partners = [
   },
   {
     imgUrl: partner3Image,
+    altText: "Partner Name 3",
+    link: "#",
+  },
+  {
+    imgUrl: partner4Image,
+    altText: "Partner Name 4",
+    link: "#",
+  },
+  {
+    imgUrl: partner2Image,
+    altText: "Partner Name 5",
+    link: "#",
+  },
+  {
+    imgUrl: partner4Image,
+    altText: "Partner Name 6",
+    link: "#",
+  },
+  {
+    imgUrl: partner2Image,
+    altText: "Partner Name 7",
+    link: "#",
+  },
+  {
+    imgUrl: partner4Image,
+    altText: "Partner Name 8",
+    link: "#",
+  },
+  {
+    imgUrl: partner2Image?.src,
+    altText: "Partner Name 9",
+    link: "#",
+  },
+];
+
+export const frameworks = [
+  {
+    imgUrl: frameworkLogo1,
+    altText: "Partner Name 1",
+    link: "#",
+  },
+  {
+    imgUrl: frameworkLogo2,
+    altText: "Partner Name 2",
+    link: "#",
+  },
+  {
+    imgUrl: frameworkLogo3,
     altText: "Partner Name 3",
     link: "#",
   },
