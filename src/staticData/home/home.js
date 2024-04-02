@@ -28,20 +28,27 @@ import partner2Image from "@/public/assets/img/partners/logo2.svg";
 import partner3Image from "@/public/assets/img/partners/logo3.svg";
 import partner4Image from "@/public/assets/img/partners/logo4.svg";
 
-import languageLogo1 from "@/public/assets/img/stack/vue.png"
-import languageLogo2 from "@/public/assets/img/stack/vue.png"
-import languageLogo3 from "@/public/assets/img/stack/vue.png"
-import languageLogo4 from "@/public/assets/img/stack/vue.png"
-import languageLogo5 from "@/public/assets/img/stack/vue.png"
-import languageLogo6 from "@/public/assets/img/stack/vue.png"
-
+import languageLogo1 from "@/public/assets/img/stack/java.png"
+import languageLogo2 from "@/public/assets/img/stack/htmlcssjs.png"
+import languageLogo3 from "@/public/assets/img/stack/ts.png"
+import languageLogo4 from "@/public/assets/img/stack/python.png"
+import languageLogo5 from "@/public/assets/img/stack/php.png"
+import languageLogo6 from "@/public/assets/img/stack/dart.png"
+import languageLogo7 from "@/public/assets/img/stack/go.png"
+import languageLogo8 from "@/public/assets/img/stack/sql.png"
 
 import frameworkLogo1 from "@/public/assets/img/stack/vue.png"
 import frameworkLogo2 from "@/public/assets/img/stack/angular.png"
 import frameworkLogo3 from "@/public/assets/img/stack/react.png"
-import frameworkLogo4 from "@/public/assets/img/stack/vue.png"
-import frameworkLogo5 from "@/public/assets/img/stack/vue.png"
-import frameworkLogo6 from "@/public/assets/img/stack/vue.png"
+import frameworkLogo4 from "@/public/assets/img/stack/fastapi.png"
+import frameworkLogo5 from "@/public/assets/img/stack/laravel.png"
+import frameworkLogo6 from "@/public/assets/img/stack/spring.png"
+import frameworkLogo7 from "@/public/assets/img/stack/svelte.png"
+import frameworkLogo8 from "@/public/assets/img/stack/nest.png"
+import frameworkLogo9 from "@/public/assets/img/stack/express.png"
+import frameworkLogo10 from "@/public/assets/img/stack/next.png"
+import frameworkLogo11 from "@/public/assets/img/stack/reactnative.png"
+import frameworkLogo12 from "@/public/assets/img/stack/flutter.png"
 
 import userImage from "@/public/assets/img/user-sidebar-thumb.png";
 import userImageLight from "@/public/assets/img/user-sidebar-thumb-light.png";
@@ -107,43 +114,38 @@ export const languages = [
     link: "#",
   },
   {
-    imgUrl: partner2Image,
+    imgUrl: languageLogo2,
     altText: "Partner Name 2",
     link: "#",
   },
   {
-    imgUrl: partner3Image,
+    imgUrl: languageLogo3,
     altText: "Partner Name 3",
     link: "#",
   },
   {
-    imgUrl: partner4Image,
+    imgUrl: languageLogo4,
     altText: "Partner Name 4",
     link: "#",
   },
   {
-    imgUrl: partner2Image,
+    imgUrl: languageLogo5,
     altText: "Partner Name 5",
     link: "#",
   },
   {
-    imgUrl: partner4Image,
+    imgUrl: languageLogo6,
     altText: "Partner Name 6",
     link: "#",
   },
   {
-    imgUrl: partner2Image,
+    imgUrl: languageLogo7,
     altText: "Partner Name 7",
     link: "#",
   },
   {
-    imgUrl: partner4Image,
+    imgUrl: languageLogo8,
     altText: "Partner Name 8",
-    link: "#",
-  },
-  {
-    imgUrl: partner2Image?.src,
-    altText: "Partner Name 9",
     link: "#",
   },
 ];
@@ -165,33 +167,48 @@ export const frameworks = [
     link: "#",
   },
   {
-    imgUrl: partner4Image,
+    imgUrl: frameworkLogo4,
     altText: "Partner Name 4",
     link: "#",
   },
   {
-    imgUrl: partner2Image,
+    imgUrl: frameworkLogo5,
     altText: "Partner Name 5",
     link: "#",
   },
   {
-    imgUrl: partner4Image,
+    imgUrl: frameworkLogo6,
     altText: "Partner Name 6",
     link: "#",
   },
   {
-    imgUrl: partner2Image,
+    imgUrl: frameworkLogo7,
     altText: "Partner Name 7",
     link: "#",
   },
   {
-    imgUrl: partner4Image,
+    imgUrl: frameworkLogo8,
     altText: "Partner Name 8",
     link: "#",
   },
   {
-    imgUrl: partner2Image?.src,
+    imgUrl: frameworkLogo9,
     altText: "Partner Name 9",
+    link: "#",
+  },
+  {
+    imgUrl: frameworkLogo10,
+    altText: "Partner Name 10",
+    link: "#",
+  },
+  {
+    imgUrl: frameworkLogo11,
+    altText: "Partner Name 11",
+    link: "#",
+  },
+  {
+    imgUrl: frameworkLogo12,
+    altText: "Partner Name 12",
     link: "#",
   },
 ];
