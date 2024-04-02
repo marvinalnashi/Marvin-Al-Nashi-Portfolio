@@ -87,7 +87,7 @@ const Hero = () => {
             <div className="col-span-10 logo-slider">
               <div className="swiper">
                 <div className="swiper-wrapper">
-                  <Marquee>
+                  <Marquee direction="right">
                     {frameworks?.map((partner, i) => (
                         <TrustedCompany key={i} {...partner} />
                     ))}
