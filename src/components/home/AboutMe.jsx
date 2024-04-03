@@ -26,23 +26,17 @@ const AboutMe = () => {
             About <span className="text-theme">Me</span>
           </h2>
           <p className="max-w-2xl mt-4 md:mt-6 subtitle">
-            Hi, my name is{" "}
-            <span className="text-black dark:text-white">
-              {userDetailsSidebar?.userName}
-            </span>{" "}
-            and I began using WordPress when first began. spent most of my
-            waking hours for the last ten years designing, programming and
-            operating{" "}
-            <span className="text-black dark:text-white"> WordPress</span> sites
-            go beyond with exclusive designer.
+            Back in 2012, I embarked on my software engineering journey by creating my very first hobby websites in HTML, CSS and Wordpress, and developing simple games in Java.
+            Since then, I've continuously explored and mastered various programming languages, frameworks, libraries, algorithms, principles, and methodologies.
+            These tools empower me to create useful, appealing, and impactful software for those around me. I embrace feedback and criticism, leveraging it as a powerful motivator to constantly refine and expand my work.
           </p>
         </div>
-        <div className="mt-6 section-content">
-          <div className="inline-flex flex-wrap items-center gap-2 mb-5 text-sm md:gap-4">
-            {technologies?.map((tech) => (
-              <AboutTechnologies key={tech?.id} {...tech} />
-            ))}
-          </div>
+        <div className="mt-10 section-content">
+          {/*<div className="inline-flex flex-wrap items-center gap-2 mb-5 text-sm md:gap-4">*/}
+          {/*  {technologies?.map((tech) => (*/}
+          {/*    <AboutTechnologies key={tech?.id} {...tech} />*/}
+          {/*  ))}*/}
+          {/*</div>*/}
 
           <ul className="grid mt-4 mb-10 text-sm lg:mt-6 md:grid-cols-2 gap-x-8 gap-y-3">
             {userDetails?.map((singlInfo, i) => (
