@@ -26,9 +26,17 @@ const AboutMe = () => {
             About <span className="text-theme">Me</span>
           </h2>
           <p className="max-w-2xl mt-4 md:mt-6 subtitle">
-            Back in 2012, I embarked on my software engineering journey by creating my very first hobby websites in HTML, CSS and Wordpress, and developing simple games in Java.
-            Since then, I've continuously explored and mastered various programming languages, frameworks, libraries, algorithms, principles, and methodologies.
-            These tools empower me to create useful, appealing, and impactful software for those around me. I embrace feedback and criticism, leveraging it as a powerful motivator to constantly refine and expand my work.
+            Back in 2012, I embarked on my software engineering journey by creating my very first hobby websites in
+            HTML, CSS and Wordpress, and developing simple games in Java.
+            Since then, I've continuously explored and mastered various programming languages, frameworks, libraries,
+            algorithms, principles, and methodologies.
+            These tools empower me to create useful, appealing, and impactful software for those around me. I embrace
+            feedback and criticism, leveraging it as a powerful motivator to constantly refine and expand my work.
+          </p>
+          <p className="max-w-2xl mt-4 md:mt-6 subtitle">
+            My flagship project, CodeArise, is a comprehensive suite that includes my custom desktop environments, operating systems, applications, and a range of innovative digital solutions.
+            In addition to my development work, I maintain a blog where I delve into my project insights and dissect popular technological trends.
+            Creativity fuels my passion for technology. Outside of programming, I immerse myself in music production and graphic design.
           </p>
         </div>
         <div className="mt-10 section-content">
@@ -40,7 +48,7 @@ const AboutMe = () => {
 
           <ul className="grid mt-4 mb-10 text-sm lg:mt-6 md:grid-cols-2 gap-x-8 gap-y-3">
             {userDetails?.map((singlInfo, i) => (
-              <UserDetail key={i} {...singlInfo} />
+                <UserDetail key={i} {...singlInfo} />
             ))}
           </ul>
 
