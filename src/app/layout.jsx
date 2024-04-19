@@ -39,8 +39,8 @@ export default function RootLayout({ children }) {
           <main>
             {children}
             {/*<CustomCursor />*/}
-            <BackToTop />
-            <ModeSwitcher />
+            {/*<BackToTop />*/}
+            {/*<ModeSwitcher />*/}
           </main>
         </ThemeProvider>
       </body>
