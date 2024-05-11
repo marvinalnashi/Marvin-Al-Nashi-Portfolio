@@ -85,8 +85,8 @@ export const introduce = {
     title: "WHO I AM",
   },
   heading: {
-    heading1: "I Aim To",
-    heading2: "Make A Change",
+    heading1: "I aim to",
+    heading2: "make a change",
   },
   desc: (
     <p>
@@ -339,9 +339,9 @@ export const projectExperiences = [
 export const services = {
   servicesHeading: {
     icon: <FaBriefcase className="text-theme" />,
-    title: "SERVICES",
-    heading: "My",
-    coloredHeading: "Services",
+    title: "SKILLS",
+    heading: "My areas of",
+    coloredHeading: "expertise",
     description:
       "I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute.",
   },
@@ -349,7 +349,7 @@ export const services = {
     {
       id: 1,
       number: "01",
-      title: "UI/UX Design",
+      title: "Software Development",
       desc: "I design products that are more than pretty. I make them shippable.",
       icon: <UiUxIcon />,
     },
@@ -363,15 +363,29 @@ export const services = {
     {
       id: 3,
       number: "03",
-      title: "SEO / Marketing",
+      title: "Mobile development",
       desc: "I design products that are more than pretty. I make them shippable.",
       icon: <SeoIcon />,
     },
     {
       id: 4,
       number: "04",
-      title: "Branding & Strategy",
+      title: "Innovation & research",
       desc: "I design products that are more than pretty. I make them shippable.",
+      icon: <BrandingIcon />,
+    },
+    {
+      id: 5,
+      number: "05",
+      title: "Software testing",
+      desc: "I design products that are more than pretty. I make them shippable.",
+      icon: <BrandingIcon />,
+    },
+    {
+      id: 6,
+      number: "06",
+      title: "Software design",
+      desc: "I design software architectures. I make them shippable.",
       icon: <BrandingIcon />,
     },
   ],
@@ -380,9 +394,9 @@ export const services = {
 export const skills = {
   skillsHeading: {
     icon: <FaGraduationCap className="text-theme" />,
-    title: "SKILLS",
-    heading: "Current",
-    coloredHeading: "Projects",
+    title: "PROGRESS",
+    heading: "My current",
+    coloredHeading: "projects",
     description:
       "I create operating systems, applications, desktop environments, kernels, websites, games, designs, and more! I also maintain a blog and write about the latest technologies and the products I release for the world to experience and enjoy.",
   },

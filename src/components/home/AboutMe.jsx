@@ -19,11 +19,11 @@ const AboutMe = () => {
       <div className="px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl about-section lg:p-10 2xl:p-13">
         <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
           <CiUser className="text-theme" size={14} />
-          ABOUT ME
+          INTRODUCTION
         </div>
         <div className="mt-7 md:mt-10 section-title">
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-semibold text-black dark:text-white leading-1.27">
-            About <span className="text-theme">Me</span>
+            About <span className="text-theme">me</span>
           </h2>
           <p className="max-w-2xl mt-4 md:mt-6 subtitle">
             Back in 2012, I embarked on my software engineering journey by creating my very first hobby websites in
