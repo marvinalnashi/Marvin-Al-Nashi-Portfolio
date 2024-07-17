@@ -18,7 +18,7 @@ const ProjectExperience = ({ count, postFix, title }) => {
       <div className="mb-1 text-2xl font-semibold md:text-3xl number text-theme 2xl:text-4xl">
         {/* <span>{count}</span>
         {postFix && "+"} */}
-        <CountUp start={1} end={count} duration={5} redraw={true} suffix="+">
+        <CountUp start={1} end={count} duration={5} redraw={true}>
           {({ countUpRef, start }) => (
             <VisibilitySensor
               onChange={(visible) => {

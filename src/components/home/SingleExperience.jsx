@@ -7,7 +7,7 @@ const SingleExperience = ({ platform, duration, position, description }) => {
         </h6>
         <p className="text-[13px] md:text-sm text-theme">{duration}</p>
       </div>
-      <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
+      <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:transition md:before:duration-300 md:before:hover:scale-150 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
         <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
           {position}
         </h4>

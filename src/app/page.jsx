@@ -43,11 +43,11 @@ export default async function Home() {
       <Hero />
       <AboutMe />
       <Service />
-      <Skills />
+      {/*<Skills />*/}
       <Resume />
-      <Portfolio />
+      {/*<Portfolio />*/}
       <Blog />
-      <Testimonial />
+      {/*<Testimonial />*/}
       <ContactMe />
       <Footer />
     </Layout>

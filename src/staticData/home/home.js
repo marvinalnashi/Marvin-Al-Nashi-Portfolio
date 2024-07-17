@@ -78,6 +78,8 @@ import blog3Image from "@/public/assets/img/blog/article3.png";
 import author1 from "@/public/assets/img/testimonial/author1.png";
 import author2 from "@/public/assets/img/testimonial/author2.png";
 import { IoHomeOutline } from "react-icons/io5";
+import TestIcon from "@/src/components/icons/home/TestIcon";
+import DesignIcon from "@/src/components/icons/home/DesignIcon";
 
 export const introduce = {
   iconBox: {
@@ -237,23 +239,19 @@ export const technologies = [
 export const userDetails = [
   {
     field: "Phone",
-    value: "+(2) 870 174 302",
+    value: "+31 6 20 26 18 89",
   },
   {
-    field: "Skype",
-    value: "brown@com",
+    field: "E-mail",
+    value: "contact@codearise.com",
   },
   {
-    field: "Language",
-    value: "English, Dutch, Spanish",
-  },
-  {
-    field: "Email",
-    value: "info@example.com",
+    field: "Languages",
+    value: "English, Dutch, Arabic",
   },
   {
     field: "GitHub",
-    value: "github.com/user",
+    value: "github.com/marvinalnashi",
   },
 ];
 
@@ -315,24 +313,24 @@ export const userDetailsSidebar = {
 
 export const projectExperiences = [
   {
-    title: "Years Of Experience",
-    count: 185,
+    title: "Total projects",
+    count: 6,
     postFix: true,
   },
   {
-    title: "Handled Projects",
-    count: 12,
-    postFix: true,
-  },
-  {
-    title: "Open Source Libraries",
+    title: "Active projects",
     count: 5,
     postFix: true,
   },
   {
-    title: "Awards Won",
-    count: 18,
-    postFix: false,
+    title: "Ongoing case studies",
+    count: 2,
+    postFix: true,
+  },
+  {
+    title: "Articles written",
+    count: 20,
+    postFix: true,
   },
 ];
 
@@ -350,43 +348,43 @@ export const services = {
       id: 1,
       number: "01",
       title: "Software Development",
-      desc: "I design products that are more than pretty. I make them shippable.",
-      icon: <UiUxIcon />,
+      desc: "I build systems, applications, games, and more for various devices and platforms.",
+      icon: <SeoIcon />,
     },
     {
       id: 2,
       number: "02",
       title: "Web Development",
-      desc: "I design products that are more than pretty. I make them shippable.",
+      desc: "I create websites, web applications, and web designs for various purposes.",
       icon: <WebDevIcon />,
     },
     {
       id: 3,
       number: "03",
       title: "Mobile development",
-      desc: "I design products that are more than pretty. I make them shippable.",
-      icon: <SeoIcon />,
+      desc: "I compose apps, roms, themes, and more for various mobile devices.",
+      icon: <UiUxIcon/>,
     },
     {
       id: 4,
       number: "04",
       title: "Innovation & research",
-      desc: "I design products that are more than pretty. I make them shippable.",
+      desc: "I research specific topics and apply my findings in my works.",
       icon: <BrandingIcon />,
     },
     {
       id: 5,
       number: "05",
       title: "Software testing",
-      desc: "I design products that are more than pretty. I make them shippable.",
-      icon: <BrandingIcon />,
+      desc: "I test my projects thoroughly to guarantee the quality of my work.",
+      icon: <TestIcon />,
     },
     {
       id: 6,
       number: "06",
       title: "Software design",
-      desc: "I design software architectures. I make them shippable.",
-      icon: <BrandingIcon />,
+      desc: "I design software architectures and development strategies for the realisation of my projects.",
+      icon: <DesignIcon />,
     },
   ],
 };
@@ -443,8 +441,8 @@ export const resume = {
   resumeHeading: {
     icon: <FaFolderOpen className="text-theme" />,
     title: "RESUME",
-    heading: "Work",
-    coloredHeading: "Experience",
+    heading: "My",
+    coloredHeading: "work experience",
     description:
       "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
   },
@@ -478,7 +476,7 @@ export const educations = {
     icon: "",
     title: "",
     heading: "My",
-    coloredHeading: "Education",
+    coloredHeading: "education",
     description:
       "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
   },
@@ -688,8 +686,8 @@ export const blogs = {
   blogsHeading: {
     icon: <FaBlog className="text-theme" />,
     title: "BLOG",
-    heading: "Latest",
-    coloredHeading: "Insights",
+    heading: "My",
+    coloredHeading: "projects",
     description:
       "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
   },
