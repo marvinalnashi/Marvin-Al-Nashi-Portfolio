@@ -14,6 +14,7 @@ const MobileMenuBar = ({ toggleDrawer }) => {
           <Image
             width={30}
             height={30}
+            unoptimized={true}
             src={siteSettings?.logo?.image}
             alt={siteSettings?.logo?.alt}
           />

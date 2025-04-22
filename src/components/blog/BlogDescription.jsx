@@ -28,6 +28,7 @@ const BlogDescription = ({ blog }) => {
               <Image
                 width={300}
                 height={300}
+                unoptimized={true}
                 src={item}
                 className="w-full"
                 alt="Blog Inner Colum Image"

@@ -59,6 +59,7 @@ const BlogComment = () => {
                   <Image
                     width={50}
                     height={50}
+                    unoptimized={true}
                     src={comment?.author?.imageSrc}
                     className="rounded-full object-cover"
                     alt={comment?.author?.name}

@@ -15,6 +15,7 @@ const BlogHero = ({ blog }) => {
         <Image
           width={500}
           height={500}
+          unoptimized={true}
           src={blog?.image?.image || "/assets/img/blog/article1.png"}
           className="w-full"
           alt="Blog Thumbnail Image"

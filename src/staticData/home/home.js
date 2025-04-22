@@ -68,12 +68,16 @@ import portfolioImage4 from "@/public/assets/img/portfolio/portfolio-img4.png";
 import projectInner1Image from "@/public/assets/img/blog/article-inner1.png";
 import projectInner2Image from "@/public/assets/img/blog/article-inner2.png";
 
-import blog1Thumbnail from "@/public/assets/img/blog/article1.png";
-import blog1Image from "@/public/assets/img/blog/article1.png";
-import blog2Thumbnail from "@/public/assets/img/blog/article2.png";
-import blog2Image from "@/public/assets/img/blog/article2.png";
-import blog3Thumbnail from "@/public/assets/img/blog/article3.png";
-import blog3Image from "@/public/assets/img/blog/article3.png";
+import blog1Thumbnail from "@/public/assets/img/blog/proj-chaos.png";
+import blog1Image from "@/public/assets/img/blog/proj-chaos.png";
+import blog2Thumbnail from "@/public/assets/img/blog/cass.png";
+import blog2Image from "@/public/assets/img/blog/cass.png";
+import blog3Thumbnail from "@/public/assets/img/blog/cahub.png";
+import blog3Image from "@/public/assets/img/blog/cahub.png";
+import blog4Thumbnail from "@/public/assets/img/blog/projectprincipium.png";
+import blog4Image from "@/public/assets/img/blog/projectprincipium.png";
+import blog5Thumbnail from "@/public/assets/img/blog/uml2openapi.png";
+import blog5Image from "@/public/assets/img/blog/uml2openapi.png";
 
 import author1 from "@/public/assets/img/testimonial/author1.png";
 import author2 from "@/public/assets/img/testimonial/author2.png";
@@ -444,29 +448,29 @@ export const resume = {
     heading: "My",
     coloredHeading: "work experience",
     description:
-      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+      "Throughout my professional journey, I have held various IT positions at multiple companies, allowing me to acquire a comprehensive skill set.",
   },
   resumeData: [
     {
-      platform: "Envato Market",
-      duration: "Mar, 2022 - Current",
-      position: "Lead UX Designer",
+      platform: "WeAreFrank!",
+      duration: "July, 2024 - Present",
+      position: "Software Engineer/Integration Specialist",
       description:
-        "Owing to advancements in product other designer technologies aute voluptate.",
+        "I am transforming my prototype application that converts UML diagrams to OpenAPI specifications that can be used to design and develop APIs into a Minimum Viable Product (MVP).",
     },
     {
-      platform: "Google",
-      duration: "2018 - 2022",
-      position: "UX Designer",
+      platform: "WeAreFrank!",
+      duration: "February, 2024 - June, 2024",
+      position: "Intern Software Engineer",
       description:
-        "Owing to advancements in product other designer technologies aute voluptate.",
+        "I have researched the possibilities of creating or improving API landscape designs by writing a Proof of Concept (PoC). I have also built a prototype application that demonstrates my own implementation of this concept.",
     },
     {
-      platform: "Apple",
-      duration: "2014-2018",
-      position: "Human Interface Designer",
+      platform: "Intermix Management",
+      duration: "February 2023, June 2023",
+      position: "Intern Web Developer",
       description:
-        "Owing to advancements in product other designer technologies aute voluptate.",
+        "I have researched why and how to implement various forms of testing in the phases of the Software Development Life Cycle (SDLC) of the company. I have also rewritten the product relations management section in the company's Product Information Management (PIM) system.",
     },
   ],
 };
@@ -478,29 +482,22 @@ export const educations = {
     heading: "My",
     coloredHeading: "education",
     description:
-      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+      "I have completed numerous courses and continue to pursue further education, striving to keep up with evolving technologies.",
   },
   educationsData: [
     {
-      institution: "Oxford University",
-      duration: "2016-2018",
-      degree: "Diploma in Computer",
+      institution: "Utrecht University",
+      duration: "2024-present",
+      degree: "Human Computer Interaction",
       description:
-        "Owing to advancements in product other designer technologies aute voluptate.",
+          "Master of Science in Information Science with Human Computer Interaction as specialisation",
     },
     {
-      institution: "Google",
-      duration: "2018 - 2022",
-      degree: "BSc in Engineering",
+      institution: "University of Applied Sciences Leiden",
+      duration: "2020-2024",
+      degree: "Information Technology",
       description:
-        "Owing to advancements in product other designer technologies aute voluptate.",
-    },
-    {
-      institution: "Oxford University",
-      duration: "2014-2018",
-      degree: "Php Development",
-      description:
-        "Owing to advancements in product other designer technologies aute voluptate.",
+        "Bachelor of Science in Information Technology with Software Engineering as specialisation",
     },
   ],
 };
@@ -521,7 +518,7 @@ export const portfolio = {
         thumbnail: portfolioImage1Thumb?.src,
         image: portfolioImage1?.src,
         thumbnailText1: "Design",
-        thumbnailText2: "Specialization",
+        thumbnailText2: "Specialisation",
       },
       type: "Branding",
       title: "Three wine glasses filled with candies",
@@ -685,7 +682,7 @@ export const portfolio = {
 export const blogs = {
   blogsHeading: {
     icon: <FaBlog className="text-theme" />,
-    title: "BLOG",
+    title: "WORK",
     heading: "My",
     coloredHeading: "projects",
     description:
@@ -699,8 +696,8 @@ export const blogs = {
       },
       category: "UI Design",
       date: "03 May 2023",
-      title: "Elevate your mornings with perfectly brewed coffee",
-      slug: "elevate-your-mornings-with-perfectly-brewed-coffee",
+      title: "CHAOS",
+      slug: "chaos",
       blogInfo: {
         projectHeading: {
           icon: <FaBlog className="text-theme" />,
@@ -708,20 +705,16 @@ export const blogs = {
         },
         projectInfo: [
           {
-            field: "POSTED BY",
-            value: "Adrinao Smith",
-          },
-          {
             field: "CATEGORY:",
-            value: "Tips & Tricks, Design",
+            value: "Operating Systems and Desktop Environments",
           },
           {
-            field: "POSTED ON:",
-            value: "Noveber 01, 2023",
+            field: "RELEASE DATE:",
+            value: "TBA",
           },
         ],
         projectDescription: {
-          descriptionTitle: "Cappuccino Bliss",
+          descriptionTitle: "CodeArise Hybrid Agile Operating System",
           description:
             "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.",
           descriptionListsTitle: "Benifits of coffee",
@@ -734,141 +727,141 @@ export const blogs = {
         },
       },
     },
+    // {
+    //   image: {
+    //     thumbnail: blog2Thumbnail?.src,
+    //     image: blog2Image?.src,
+    //   },
+    //   category: "UI Design",
+    //   date: "03 May 2023",
+    //   title: "CASS",
+    //   slug: "cass",
+    //   blogInfo: {
+    //     projectHeading: {
+    //       icon: <FaBlog className="text-theme" />,
+    //       title: "Blog Details",
+    //     },
+    //     projectInfo: [
+    //       {
+    //         field: "POSTED BY",
+    //         value: "Adrinao Smith",
+    //       },
+    //       {
+    //         field: "CATEGORY:",
+    //         value: "Tips & Tricks, Design",
+    //       },
+    //       {
+    //         field: "POSTED ON:",
+    //         value: "Noveber 01, 2023",
+    //       },
+    //     ],
+    //     projectDescription: {
+    //       descriptionTitle: "CodeArise System Suite",
+    //       description:
+    //         "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.",
+    //       descriptionListsTitle: "Benifits of coffee",
+    //       descriptionLists: [
+    //         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
+    //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+    //         "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+    //       ],
+    //       projectImage: [projectInner2Image?.src, projectInner1Image?.src],
+    //     },
+    //   },
+    // },
+    // {
+    //   image: {
+    //     thumbnail: blog3Thumbnail?.src,
+    //     image: blog3Image?.src,
+    //   },
+    //   category: "UI Design",
+    //   date: "03 May 2023",
+    //   title: "CA Hub",
+    //   slug: "ca-hub",
+    //   blogInfo: {
+    //     projectHeading: {
+    //       icon: <FaBlog className="text-theme" />,
+    //       title: "Blog Details",
+    //     },
+    //     projectInfo: [
+    //       {
+    //         field: "POSTED BY",
+    //         value: "Adrinao Smith",
+    //       },
+    //       {
+    //         field: "CATEGORY:",
+    //         value: "Tips & Tricks, Design",
+    //       },
+    //       {
+    //         field: "POSTED ON:",
+    //         value: "Noveber 01, 2023",
+    //       },
+    //     ],
+    //     projectDescription: {
+    //       descriptionTitle: "Cappuccino Bliss",
+    //       description:
+    //         "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.",
+    //       descriptionListsTitle: "Benifits of coffee",
+    //       descriptionLists: [
+    //         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
+    //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+    //         "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+    //       ],
+    //       projectImage: [projectInner2Image?.src, projectInner1Image?.src],
+    //     },
+    //   },
+    // },
+    // {
+    //   image: {
+    //     thumbnail: blog1Thumbnail?.src,
+    //     image: blog1Image?.src,
+    //   },
+    //   category: "UI Design",
+    //   date: "03 May 2023",
+    //   title: "Project Principium",
+    //   slug: "ca-game-1",
+    //   blogInfo: {
+    //     projectHeading: {
+    //       icon: <FaBlog className="text-theme" />,
+    //       title: "Blog Details",
+    //     },
+    //     projectInfo: [
+    //       {
+    //         field: "POSTED BY",
+    //         value: "Adrinao Smith",
+    //       },
+    //       {
+    //         field: "CATEGORY:",
+    //         value: "Tips & Tricks, Design",
+    //       },
+    //       {
+    //         field: "POSTED ON:",
+    //         value: "Noveber 01, 2023",
+    //       },
+    //     ],
+    //     projectDescription: {
+    //       descriptionTitle: "Cappuccino Bliss",
+    //       description:
+    //         "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.",
+    //       descriptionListsTitle: "Benifits of coffee",
+    //       descriptionLists: [
+    //         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
+    //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+    //         "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+    //       ],
+    //       projectImage: [projectInner2Image?.src, projectInner1Image?.src],
+    //     },
+    //   },
+    // },
     {
       image: {
-        thumbnail: blog2Thumbnail?.src,
-        image: blog2Image?.src,
+        thumbnail: blog5Thumbnail?.src,
+        image: blog5Image?.src,
       },
       category: "UI Design",
       date: "03 May 2023",
-      title: "Mastering the clock: A guide to time management",
-      slug: "mastering-the-clock-a-guide-to-time-management",
-      blogInfo: {
-        projectHeading: {
-          icon: <FaBlog className="text-theme" />,
-          title: "Blog Details",
-        },
-        projectInfo: [
-          {
-            field: "POSTED BY",
-            value: "Adrinao Smith",
-          },
-          {
-            field: "CATEGORY:",
-            value: "Tips & Tricks, Design",
-          },
-          {
-            field: "POSTED ON:",
-            value: "Noveber 01, 2023",
-          },
-        ],
-        projectDescription: {
-          descriptionTitle: "Cappuccino Bliss",
-          description:
-            "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.",
-          descriptionListsTitle: "Benifits of coffee",
-          descriptionLists: [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
-          ],
-          projectImage: [projectInner2Image?.src, projectInner1Image?.src],
-        },
-      },
-    },
-    {
-      image: {
-        thumbnail: blog3Thumbnail?.src,
-        image: blog3Image?.src,
-      },
-      category: "UI Design",
-      date: "03 May 2023",
-      title: "Homeward bound: Crafting a productive home office",
-      slug: "homeward-bound-crafting-a-productive-home-office",
-      blogInfo: {
-        projectHeading: {
-          icon: <FaBlog className="text-theme" />,
-          title: "Blog Details",
-        },
-        projectInfo: [
-          {
-            field: "POSTED BY",
-            value: "Adrinao Smith",
-          },
-          {
-            field: "CATEGORY:",
-            value: "Tips & Tricks, Design",
-          },
-          {
-            field: "POSTED ON:",
-            value: "Noveber 01, 2023",
-          },
-        ],
-        projectDescription: {
-          descriptionTitle: "Cappuccino Bliss",
-          description:
-            "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.",
-          descriptionListsTitle: "Benifits of coffee",
-          descriptionLists: [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
-          ],
-          projectImage: [projectInner2Image?.src, projectInner1Image?.src],
-        },
-      },
-    },
-    {
-      image: {
-        thumbnail: blog1Thumbnail?.src,
-        image: blog1Image?.src,
-      },
-      category: "UI Design",
-      date: "03 May 2023",
-      title: "Elevate your mornings with perfectly brewed coffee",
-      slug: "elevate-your-mornings-with-perfectly-brewed-coffee",
-      blogInfo: {
-        projectHeading: {
-          icon: <FaBlog className="text-theme" />,
-          title: "Blog Details",
-        },
-        projectInfo: [
-          {
-            field: "POSTED BY",
-            value: "Adrinao Smith",
-          },
-          {
-            field: "CATEGORY:",
-            value: "Tips & Tricks, Design",
-          },
-          {
-            field: "POSTED ON:",
-            value: "Noveber 01, 2023",
-          },
-        ],
-        projectDescription: {
-          descriptionTitle: "Cappuccino Bliss",
-          description:
-            "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.",
-          descriptionListsTitle: "Benifits of coffee",
-          descriptionLists: [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
-          ],
-          projectImage: [projectInner2Image?.src, projectInner1Image?.src],
-        },
-      },
-    },
-    {
-      image: {
-        thumbnail: blog2Thumbnail?.src,
-        image: blog2Image?.src,
-      },
-      category: "UI Design",
-      date: "03 May 2023",
-      title: "Mastering the clock: A guide to time management",
-      slug: "mastering-the-clock-a-guide-to-time-management",
+      title: "UML2OpenAPI",
+      slug: "umltoopenapiconverter",
       blogInfo: {
         projectHeading: {
           icon: <FaBlog className="text-theme" />,

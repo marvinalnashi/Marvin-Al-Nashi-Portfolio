@@ -19,6 +19,7 @@ const RightNav = ({ midContainer }) => {
           <Image
             width={"0"}
             height={"0"}
+            unoptimized={true}
             className="w-full h-auto"
             src={siteSettings?.logo?.image}
             alt={siteSettings?.logo?.alt}

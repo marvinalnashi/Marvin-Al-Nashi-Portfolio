@@ -27,7 +27,7 @@ const Blog = () => {
         {showMore !== blogs?.blogsData?.length && (
           <div className="mt-10 text-center more-blogs md:mt-13">
             <Button
-              text="More Post"
+              text="View more"
               onClick={() => setShowMore(blogs?.blogsData?.length)}
             />
           </div>

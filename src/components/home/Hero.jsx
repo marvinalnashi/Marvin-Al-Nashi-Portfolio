@@ -41,19 +41,23 @@ const Hero = () => {
           <div className="hero-image flex-[0_0_20.3rem] max-md:hidden">
             <Image
               src={heroImg?.src}
+              unoptimized={true}
               width={350}
               height={200}
               alt="Hero Image - Light Mode"
               priority
+              unoptimized={true}
               className="dark:hidden"
             />
 
             <Image
               src={heroImgDark?.src}
+              unoptimized={true}
               width={350}
               height={200}
               alt="Hero Image - Dark Mode"
               // priority
+              unoptimized={true}
               className="hidden dark:block"
             />
           </div>

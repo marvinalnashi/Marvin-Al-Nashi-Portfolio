@@ -30,6 +30,7 @@ const Portfolio = () => {
                   <Image
                     width={800}
                     height={300}
+                    unoptimized={true}
                     src={portfolio?.image?.thumbnail}
                     className="rounded-lg max-md:min-h-[17rem] max-md:w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
                     alt="portfolio"

@@ -32,6 +32,7 @@ const SidebarProfile = () => {
               className="hidden dark:block w-full h-full rounded-full"
               src={userDetailsSidebar?.userImage}
               alt={userDetailsSidebar?.userName}
+              unoptimized={true}
               width={200}
               height={200}
             />
@@ -39,6 +40,7 @@ const SidebarProfile = () => {
               className="dark:hidden w-full h-full rounded-full"
               src={userDetailsSidebar?.userImageLight}
               alt={userDetailsSidebar?.userName}
+              unoptimized={true}
               width={200}
               height={200}
             />

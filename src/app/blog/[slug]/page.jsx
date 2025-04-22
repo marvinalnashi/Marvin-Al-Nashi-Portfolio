@@ -28,7 +28,7 @@ export default function SingleBlog({ params }) {
           <BlogHero blog={blog} />
 
           <BlogDescription blog={blog} />
-          <BlogComment />
+          {/*<BlogComment />*/}
         </div>
       </div>
       <Footer />

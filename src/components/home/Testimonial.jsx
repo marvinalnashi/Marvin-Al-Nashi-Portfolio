@@ -72,6 +72,7 @@ const Testimonial = () => {
                           <Image
                             width={90}
                             height={90}
+                            unoptimized={true}
                             style={{ objectFit: "contain" }}
                             src={testimonial?.image}
                             alt={testimonial?.name}

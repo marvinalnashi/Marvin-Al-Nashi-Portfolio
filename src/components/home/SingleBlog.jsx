@@ -10,6 +10,7 @@ const SingleBlog = ({ blog }) => {
             <Image
               src={blog?.image?.thumbnail}
               alt={blog?.title}
+              unoptimized={true}
               width={300}
               height={250}
               className="object-cover object-center w-full h-full min-h-[288px] transition-all duration-300 ease-in-out max-h-60 md:min-h-60 group-hover:scale-105"

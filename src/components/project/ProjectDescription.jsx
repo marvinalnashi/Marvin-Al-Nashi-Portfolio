@@ -25,6 +25,7 @@ const ProjectDescription = ({ project }) => {
               width={300}
               height={300}
               src={item}
+              unoptimized={true}
               className="w-full"
               alt="Project Inner Colum Image"
             />

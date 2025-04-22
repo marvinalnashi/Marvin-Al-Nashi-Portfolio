@@ -19,6 +19,7 @@ const ProjectHero = ({ project }) => {
           src={project?.image?.image || "/assets/img/portfolio/portfolio-img1"}
           width={500}
           height={500}
+          unoptimized={true}
           className="w-full h-auto"
           alt="Project Thumbnail Image"
           priority

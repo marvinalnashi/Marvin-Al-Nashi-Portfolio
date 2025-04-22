@@ -30,6 +30,7 @@ const Technologies = () => {
               <Image
                 width={100}
                 height={100}
+                unoptimized={true}
                 src={item?.image}
                 alt={item?.title}
               />
