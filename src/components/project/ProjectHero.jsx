@@ -26,7 +26,7 @@ const ProjectHero = ({ project }) => {
         />
       </div>
       <div className="post-meta sm:flex items-center justify-between my-8 mb-10 max-sm:space-y-3.5">
-        {project?.projectInfo?.map((item, i) => (
+        {project?.projectValues?.map((item, i) => (
           <div key={i}>
             <h6 className="text-black dark:text-white">{item?.field}</h6>
             <p className="text-regular">{item?.value}</p>

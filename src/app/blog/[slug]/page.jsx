@@ -5,14 +5,14 @@ import BlogDescription from "@/src/components/blog/BlogDescription";
 import BlogHero from "@/src/components/blog/BlogHero";
 import Footer from "@/src/components/shared/Footer";
 import Layout from "@/layout/Layout";
-import { blogs } from "@/src/staticData/home/home";
+import { projects } from "@/src/staticData/home/home";
 import { useEffect, useState } from "react";
 
 export default function SingleBlog({ params }) {
   const [blog, setBlog] = useState({});
 
   useEffect(() => {
-    const blog = blogs?.blogsData?.find(
+    const blog = projects?.projectsData?.find(
       (project) => project?.slug === params?.slug
     );
     setBlog(blog);

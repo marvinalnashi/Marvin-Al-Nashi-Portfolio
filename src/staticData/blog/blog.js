@@ -61,35 +61,35 @@ export const tags = [
   },
 ];
 
-export const comments = [
-  {
-    id: 1,
-    author: {
-      name: "Mily Martin",
-      imageSrc: comment1Image?.src,
-    },
-    date: "November 02, 2023",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    reply: "",
-  },
-  {
-    id: 2,
-    author: {
-      name: "Mily Martin",
-      imageSrc: comment2Image?.src,
-    },
-    date: "November 02, 2023",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    reply: "",
-  },
-  {
-    id: 3,
-    author: {
-      name: "Mily Martin",
-      imageSrc: comment3Image?.src,
-    },
-    date: "November 02, 2023",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-    reply: "",
-  },
-];
+// export const comments = [
+//   {
+//     id: 1,
+//     author: {
+//       name: "Mily Martin",
+//       imageSrc: comment1Image?.src,
+//     },
+//     date: "November 02, 2023",
+//     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+//     reply: "",
+//   },
+//   {
+//     id: 2,
+//     author: {
+//       name: "Mily Martin",
+//       imageSrc: comment2Image?.src,
+//     },
+//     date: "November 02, 2023",
+//     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+//     reply: "",
+//   },
+//   {
+//     id: 3,
+//     author: {
+//       name: "Mily Martin",
+//       imageSrc: comment3Image?.src,
+//     },
+//     date: "November 02, 2023",
+//     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+//     reply: "",
+//   },
+// ];

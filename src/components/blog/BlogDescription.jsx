@@ -6,24 +6,24 @@ const BlogDescription = ({ blog }) => {
     <div>
       <div>
         <h3 className="mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl">
-          {blog?.blogInfo?.projectDescription?.descriptionTitle}
+          {blog?.projectMetadata?.projectDescription?.descriptionTitle}
         </h3>
         <p className="text-regular leading-[2]">
-          {blog?.blogInfo?.projectDescription?.description}
+          {blog?.projectMetadata?.projectDescription?.description}
         </p>
         <br />
         <h3 className="mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl">
-          {blog?.blogInfo?.projectDescription?.descriptionListsTitle}
+          {blog?.projectMetadata?.projectDescription?.descriptionListsTitle}
         </h3>
         <ul className="text-regular leading-[2] list-disc ml-5 my-4">
-          {blog?.blogInfo?.projectDescription?.descriptionLists?.map(
+          {blog?.projectMetadata?.projectDescription?.descriptionLists?.map(
             (item, i) => (
               <li key={i}>{item}</li>
             )
           )}
         </ul>
         <div className="grid gap-5 my-8 sm:grid-cols-2 md:gap-8">
-          {blog?.blogInfo?.projectDescription?.projectImage?.map((item, i) => (
+          {blog?.projectMetadata?.projectDescription?.projectImage?.map((item, i) => (
             <div key={i} className="overflow-hidden rounded-xl xl:rounded-2xl">
               <Image
                 width={300}

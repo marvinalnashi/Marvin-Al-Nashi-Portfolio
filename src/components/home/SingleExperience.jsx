@@ -11,7 +11,15 @@ const SingleExperience = ({ platform, duration, position, description }) => {
         <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
           {position}
         </h4>
-        <p>{description}</p>
+          {Array.isArray(description) ? (
+              <ul className="list-disc list-inside space-y-1 text-base">
+                  {description.map((point, idx) => (
+                      <li key={idx}>{point}</li>
+                  ))}
+              </ul>
+          ) : (
+              <p>{description}</p>
+          )}
       </div>
     </li>
   );

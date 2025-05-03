@@ -24,7 +24,7 @@ const SingleBlog = ({ blog }) => {
                 {blog?.category}
                 {", "}
               </span>
-              <span className="post_date"> {blog?.date}</span>
+              <span className="post_date"> {blog?.state}</span>
             </div>
           </div>
           <div className="post-title mt-3 md:mt-4.5 mb-6 md:mb-8">
