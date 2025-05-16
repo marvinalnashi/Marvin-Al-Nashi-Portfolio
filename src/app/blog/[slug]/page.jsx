@@ -1,6 +1,6 @@
 "use client";
 
-import BlogComment from "@/src/components/blog/BlogComment";
+// import BlogComment from "@/src/components/blog/BlogComment";
 import BlogDescription from "@/src/components/blog/BlogDescription";
 import BlogHero from "@/src/components/blog/BlogHero";
 import Footer from "@/src/components/shared/Footer";

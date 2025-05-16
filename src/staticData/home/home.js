@@ -724,17 +724,29 @@ export const projects = {
                     },
                 ],
                 projectDescription: {
-                    descriptionTitle: "CodeArise Hybrid Agile Operating System",
-                    description:
-                        "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.",
-                    descriptionListsTitle: "Benifits of coffee",
-                    descriptionLists: [
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
-                        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-                        "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+                    descriptionTitle: "CHAOS (CodeArise Hybrid Adaptive Operating System)",
+                    content: [
+                        { type: "paragraph", text: "CHAOS, short for CodeArise Hybrid Adaptive Operating System, is a modular desktop environment and future operating system designed to adapt to a wide range of user needs and workflows through flexibility, scalability, and customisation." },
+                        { type: "paragraph", text: "The project begins with CHAOS DE, a desktop environment that can be installed on top of any Linux distribution. It offers a highly configurable interface that adapts to various professional contexts, working styles, and user preferences. Users can adjust system behaviours, layouts, themes, sound schemes, launchers, and application bundles to suit specific tasks or personal preferences. Rather than being constrained to predefined roles, users can configure their environment for development, design, media production, research, or general use." },
+                        { type: "paragraph", text: "A core feature of CHAOS is its ability to support multiple configurations within a single installation. Users can install and manage different editions of the system, each with its own combination of user interface components, software packages, services, and behaviours. These editions can be used independently or combined into a hybrid setup. Switching between configurations does not affect the underlying system, allowing users to move seamlessly between roles or tasks while maintaining a consistent experience." },
+                        { type: "paragraph", text: "The system is built on a component-based architecture that separates the core functionality from the user interface and feature layers. This structure makes it possible to update or swap out parts of the system without compromising stability. It also allows users to install custom modules to extend and fine-tune the environment according to their own needs without modifying the base system." },
+                        { type: "paragraph", text: "CHAOS is designed to be accessible, customisable, and efficient. It prioritises usability and performance while providing detailed control options for both casual and advanced users. The system scales well across a variety of hardware platforms and usage scenarios, from personal devices to workstations in enterprises." },
+                        { type: "paragraph", text: "In the longer term, CHAOS will evolve into a complete Linux distribution. This includes the development of a dedicated window manager and an optimised kernel, along with other core components. These elements will follow the same design principles: modularity, adaptability, and consistency across the system." },
+                        {
+                            type: "list",
+                            title: "Core Features and Principles",
+                            items: [
+                                "Multi-configuration support: Switch between different configurations tailored for specific tasks, workflows, or professional roles fluidly.",
+                                "Modular architecture: Core components, user interface elements, and features are separated and can easily be customised, enhanced, or replaced.",
+                                "Cross-distribution compatibility: CHAOS DE runs on top of most Linux distributions, allowing users to adopt it without changing their base system. CHAOS as a standalone operating system is a Linux distribution, making it compatible with a wide range of devices.",
+                                "Customisation without compromise: Exercise deep control over themes, layouts, launchers, interactions, and more without sacrificing system performance or stability.",
+                                "Expandable ecosystem: Add-ons, modules, themes, and configurations can be created, shared, and applied by users."
+                            ]
+                        },
+                        { type: "paragraph", text: "CHAOS is intended for users who expect their computing environment to support the way they work." }
                     ],
-                    projectImage: [projectInner2Image?.src, projectInner1Image?.src],
-                },
+                    projectImage: [projectInner2Image?.src, projectInner1Image?.src]
+                }
             },
         },
         // {
@@ -888,17 +900,29 @@ export const projects = {
                     },
                 ],
                 projectDescription: {
-                    descriptionTitle: "Cappuccino Bliss",
-                    description:
-                        "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community.",
-                    descriptionListsTitle: "Benifits of coffee",
-                    descriptionLists: [
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
-                        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-                        "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+                    descriptionTitle: "CHAOS (CodeArise Hybrid Adaptive Operating System)",
+                    content: [
+                        { type: "paragraph", text: "CHAOS, short for CodeArise Hybrid Adaptive Operating System, is a modular desktop environment and future operating system designed to adapt to a wide range of user needs and workflows through flexibility, scalability, and customisation." },
+                        { type: "paragraph", text: "The project begins with CHAOS DE, a desktop environment that can be installed on top of any Linux distribution. It offers a highly configurable interface that adapts to various professional contexts, working styles, and user preferences. Users can adjust system behaviours, layouts, themes, sound schemes, launchers, and application bundles to suit specific tasks or personal preferences. Rather than being constrained to predefined roles, users can configure their environment for development, design, media production, research, or general use." },
+                        { type: "paragraph", text: "A core feature of CHAOS is its ability to support multiple configurations within a single installation. Users can install and manage different editions of the system, each with its own combination of user interface components, software packages, services, and behaviours. These editions can be used independently or combined into a hybrid setup. Switching between configurations does not affect the underlying system, allowing users to move seamlessly between roles or tasks while maintaining a consistent experience." },
+                        { type: "paragraph", text: "The system is built on a component-based architecture that separates the core functionality from the user interface and feature layers. This structure makes it possible to update or swap out parts of the system without compromising stability. It also allows users to install custom modules to extend and fine-tune the environment according to their own needs without modifying the base system." },
+                        { type: "paragraph", text: "CHAOS is designed to be accessible, customisable, and efficient. It prioritises usability and performance while providing detailed control options for both casual and advanced users. The system scales well across a variety of hardware platforms and usage scenarios, from personal devices to workstations in enterprises." },
+                        { type: "paragraph", text: "In the longer term, CHAOS will evolve into a complete Linux distribution. This includes the development of a dedicated window manager and an optimised kernel, along with other core components. These elements will follow the same design principles: modularity, adaptability, and consistency across the system." },
+                        {
+                            type: "list",
+                            title: "Core Features and Principles",
+                            items: [
+                                "Multi-configuration support: Switch between different configurations tailored for specific tasks, workflows, or professional roles fluidly.",
+                                "Modular architecture: Core components, user interface elements, and features are separated and can easily be customised, enhanced, or replaced.",
+                                "Cross-distribution compatibility: CHAOS DE runs on top of most Linux distributions, allowing users to adopt it without changing their base system. CHAOS as a standalone operating system is a Linux distribution, making it compatible with a wide range of devices.",
+                                "Customisation without compromise: Exercise deep control over themes, layouts, launchers, interactions, and more without sacrificing system performance or stability.",
+                                "Expandable ecosystem: Add-ons, modules, themes, and configurations can be created, shared, and applied by users."
+                            ]
+                        },
+                        { type: "paragraph", text: "CHAOS is intended for users who expect their computing environment to support and adapt to their workflow. Its foundation is built on the principle that technology should be shaped by the individual, not the other way around." }
                     ],
-                    projectImage: [projectInner2Image?.src, projectInner1Image?.src],
-                },
+                    projectImage: [projectInner2Image?.src, projectInner1Image?.src]
+                }
             },
         },
     ],
